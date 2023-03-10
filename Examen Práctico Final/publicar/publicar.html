@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PUBLICAR</title>
+    <meta charset="utf-8">
+    <style>
+        .contenido {
+            width: 400px;
+            margin: 0 auto;
+            background-color: #ee9f9f;
+            padding: 20px;
+        }
+
+        .formulario {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        label {
+            display: block;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #0088cc;
+            color: #dfabab;
+            padding: 10px;
+        }
+    </style>
+
+<body style="background-color: #dfabab;">
+</body>
+</head>
+
+<body>
+    <div class="contenido">
+        <h1>PUBLICAR</h1>
+        <div class="formulario">
+            <form action="publicar.php" method="post">
+                <label>Imagen:</label>
+                <input type="file" name="imagen" />
+                <label>Titulo:</label>
+                <input type="text" name="titulo" />
+                <label>Descripción:</label>
+                <textarea name="descripcion"></textarea>
+                <label>Categorías:</label>
+                <input type="text" name="categorias" />
+                <label>Publicación:</label>
+                <textarea name="publicacion"></textarea>
+                <input type="submit" value="Publicar" />
+            </form>
+            <li><a href="file:///C:/Users/User/Desktop/Nueva%20carpeta%20(2)/index.html">Inicio</a></li>
+        </div>
+    </div>
+</body>
+
+</html>
